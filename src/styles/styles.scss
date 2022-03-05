@@ -1,0 +1,12 @@
+$body-bg: #f8f8f8;
+$primary: #991421;
+$secondary: #ebebeb;
+$link: #b4b4b4;
+
+$border-radius-lg: 1rem;
+$border-radius: 0.7rem;
+
+@import "globals";
+@import "~bootstrap/scss/bootstrap";
+@import "layout";
+@import "home";
