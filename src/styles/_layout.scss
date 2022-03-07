@@ -191,11 +191,24 @@
     overflow: hidden;
     left: 100%;
     top: 0px;
+    animation: linear infinite;
+    animation-name: run;
+    animation-duration: 20s;
     -webkit-animation:linear infinite;
     -webkit-animation-name:run;
     -webkit-animation-duration:20s;
     animation-timing-function: linear;
     animation-delay: 10s;
+  }
+
+  @keyframes run  {
+    0% {
+       left:100%;
+    }
+    
+    100% {
+       left:-300px;
+    }
   }
 
   @-webkit-keyframes run  {
